@@ -1,0 +1,25 @@
+const G="Green";
+const R="Red";
+const B="Blue";
+function displayValue(str)
+{
+    if(str==G)
+    {
+        console.log("green garden");
+    }
+    else if(str==R)
+    {
+        console.log("red rose");
+
+    }
+    else if(str==B)
+    {
+        console.log("blue rose");
+    }
+    else
+    {
+        console.log("unsupported color");
+    }
+}
+var str="Red";
+displayValue(str);
